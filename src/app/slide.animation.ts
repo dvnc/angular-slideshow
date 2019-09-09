@@ -18,4 +18,6 @@ export const slideAnimation = trigger("slideAnimation", [
       query(":leave", [
         animate("2000ms", style({ opacity: 0, transform: "scale(2)" }))
       ])
-    ])])
+    ])
+  )
+]);
